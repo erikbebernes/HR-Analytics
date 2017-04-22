@@ -1,5 +1,3 @@
-# HR-Analytics
-
 #Kaggle HR Analytics
 #Why are our best and most experienced employees leaving prematurely?
 
@@ -264,6 +262,7 @@ length(which(hrbestleft$promotion_last_5years=="1"))/nrow(hrbestleft)
 
 
 #Decision Tree Analysis
+
 install.packages("party")
 library(party)
 set.seed(421)
